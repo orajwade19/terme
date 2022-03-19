@@ -127,13 +127,6 @@ var commands = {
     },
     description: "Prints this help message",
   },
-  ls: {
-    f: () => {
-      term.writeln(["a", "bunch", "of", "fake", "files"].join("\r\n"));
-      term.prompt(term);
-    },
-    description: "Prints a fake directory structure",
-  },
 
   surprise: {
     f: () => {
