@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #acc8e5;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+#terminal {
+  height: 100vh;
+}
+
+.xterm {
+  padding: 12px;
+}
